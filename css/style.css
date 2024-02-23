@@ -1,0 +1,472 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    background-image: url(../images/body-bg.png);
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Sen', sans-serif;
+}
+
+.layout_main {
+    width: 100%;
+    background-color: rgb(18, 18, 18, 0.9);
+    height: auto;
+    background-size: cover;
+    float: left;
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.service_section {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+}
+
+.service_taital {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding: 30px;
+}
+
+.service_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+.service_box {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+}
+
+
+.breakfast_img {
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    min-height: 138px;
+    align-items: center;
+    justify-content: center;
+}
+
+.breakfast_text {
+    width: 100%;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.seemore_bt {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seemore_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefbfb;
+    background-color: #8eb50b;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt_monday {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seemore_bt_monday a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt_monday a:hover {
+    color: black;
+    background-color: white;
+}
+
+.seemore_bt_tuesday {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seemore_bt_tuesday a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(243, 121, 204);
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt_tuesday a:hover {
+    color: black;
+    background-color: white;
+}
+
+.seemore_bt_wednesday {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seemore_bt_wednesday a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(12, 224, 62);
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt_wednesday a:hover {
+    color: black;
+    background-color: white;
+}
+
+.seemore_bt_thursday {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seemore_bt_thursday a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(224, 111, 12);
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt_thursday a:hover {
+    color: black;
+    background-color: white;
+}
+
+.seemore_bt_friday {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seemore_bt_friday a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(64, 175, 239);
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt_friday a:hover {
+    color: black;
+    background-color: white;
+}
+
+.seemore_bt_saturday {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seemore_bt_saturday a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(201, 54, 242);
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt_saturday a:hover {
+    color: black;
+    background-color: white;
+}
+
+.seemore_bt_sunday {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seemore_bt_sunday a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(242, 54, 54);
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt_sunday a:hover {
+    color: black;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border-style: none;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* blog section start */
+
+.blog_section {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+}
+
+.blog_taital {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #eaebe7;
+    font-weight: 800;
+}
+
+.banner_monday_text {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    background-color: #d6e43d;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.banner_tuesday_text {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    background-color: #f762d2;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.banner_wednesday_text{
+    width: 35%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    background-color: #30f934;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.banner_thrusday_text{
+    width: 35%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.banner_friday_text{
+    width: 35%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    background-color: rgb(0, 191, 255);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.banner_saturday_text{
+    width: 35%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    background-color: rgb(213, 89, 247);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.banner_sunday_text{
+    width: 35%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    background-color: red;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.icon i {
+    border-radius: 50%;
+    border: 20px solid #ffffff;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 80px;
+    width: 120px;
+    height: 120px;
+}
+
+.service-item h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
